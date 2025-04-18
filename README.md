@@ -43,18 +43,25 @@ npm start
 
 # App Project Structure
 tasktrackr/
-├── public/
-│   └── index.html
+├── node_modules
 ├── src/
 │   ├── components/
+│   │   ├── AddTask.jsx
+│   │   ├── TaskForm.jsx
 │   │   ├── TaskItem.jsx
 │   │   └── TaskList.jsx
+│   ├── App.css
 │   ├── App.jsx
-│   ├── index.js
-│   └── styles/
-│       └── App.css
+│   ├── index.css
+│   └── main.jsx
+├── .gitignore
+├── eslint.config.js 
+├── index.html
+├── package-lock.json
 ├── package.json
-└── README.md
+├── README.md
+├── vite.config.js
+
 
 # Summary
 TaskTrackr app offers the basic must-have features for any user who needs an effective task management solution. Whether tracking schoolwork, job tasks, or personal goals, TaskTrackr helps you stay focused and organized every day!
